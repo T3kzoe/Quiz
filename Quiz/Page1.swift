@@ -16,8 +16,10 @@ struct Page1: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("Which superhero can hold Mjolnir, Thor's hammer?")
+                Text("I am messing with this code")
                     .font(.title)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.green)
                 Button("Spiderman") {
                     print("The correct answer is all! 🕸️👑🇺🇸")
                 }
